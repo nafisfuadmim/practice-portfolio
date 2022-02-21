@@ -6,6 +6,10 @@ body {
 .half-width h1 {
     font-size: 50px;
 }
+.experience-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
 .name-color {
     color: tomato;
 }
@@ -31,10 +35,41 @@ body {
     padding-right: 15px;
     padding-top: 50px;
 }
+.experience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.flexible-section {
+    display: flex;
+}
 .half-width {
     width: 50%;
     padding-left: 5%;
 }
 .half-width img {
     width: 85%;
+}
+.developer-section {
+    box-shadow: 10px 10px 40px gray;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    padding: 60px 30px;
+    border-radius: 5px;
+}
+#stack-dev-border {
+    border-left: 10px solid;
+    border-image: linear-gradient(olive,green);
+    border-image-slice: 1;
+}
+#baby-web-border {
+    border-left: 10px solid;
+    border-image: linear-gradient(#847e8c,#0b2038);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    margin-top: 60px;
 }
